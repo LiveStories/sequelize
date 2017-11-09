@@ -516,6 +516,11 @@ export interface BuildOptions {
    */
   include?: Includeable[];
 
+  /**
+   * The request object
+   */
+  req?: object;
+
 }
 
 /**
